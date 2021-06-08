@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap");
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  margin-top: 0px;
+  color: #fc5404;
+}
+h2 {
+  font-family: "Montserrat" sans-serif;
+  color: #fc5404;
+}
+.main-h1 {
+  color: #fc5404;
+  font-family: "Pacifico", cursive;
+  font-size: 5rem;
+}
+.main-p {
+  color: #fc5404;
+  font-size: 2rem;
+}
+.logo {
+  border-radius: 50%;
+  width: 10%;
+  margin-top: 100px;
+}
+.top-container {
+  background-color: #393e46;
+  color: white;
+  position: relative;
+  padding-top: 100px;
+}
+.introduction h1 {
+  font-family: "Sacremento", cursive;
+  margin-top: 50px;
+}
+.skills {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+.message {
+  width: 40%;
+  margin: 40px auto 40px auto;
+}
+hr {
+  border: dotted 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+.problem-solving {
+  margin: 30px 0 100px 0;
+}
+.java {
+  margin: 30px 0 100px 0;
+}
+.htmlcss {
+  margin: 30px 0 100px 0;
+}
+.ps-image {
+  width: 30%;
+  float: left;
+  margin-right: 50px;
+}
+.java-img {
+  width: 30%;
+  float: right;
+}
+.htmlcss-img {
+  width: 30%;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.get-in-touch h3 {
+  padding-bottom: 50px;
+}
+.btn {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+}
+.btn {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  padding: 0px 40px 0px 40px;
+  color: #f09819;
+}
+a:hover{
+    color: white;
+}
+.bottom-container {
+  background-color: #393e46;
+  width: 100%;
+  height: 160px;
+  color: white;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+.bottom-container p{
+    padding: 30px 0 30px 0;
+}
